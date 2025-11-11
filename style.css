@@ -124,11 +124,7 @@ li{
 .kolumna.left { text-align: left; align-items: flex-start; }
 .kolumna.center { text-align: center; align-items: center; }
 .kolumna.right { text-align: right; align-items: flex-end; }
-/* Footer font-size variables: maintain proportional relationship between
-   header (.naglowek) and smaller text (.tekstmniejszy). Default ratio = 40/16 = 2.5 */
-:root {
-    --footer-small: 16px;
-    --footer-scale: 2.5; /* naglowek = --footer-small * --footer-scale */
+
 }
 
 .naglowek{
@@ -161,4 +157,5 @@ li{
     }
 
 }
+
 
